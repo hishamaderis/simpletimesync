@@ -41,3 +41,4 @@ systemctl enable chronyd; systemctl restart chronyd
 echo ""
 
 echo "Please check if time is synced by running 'chronyc sources'"
+echo ""
