@@ -40,5 +40,4 @@ echo "Starting and enabling chronyd on boot..."
 systemctl enable chronyd; systemctl restart chronyd
 echo ""
 
-echo "Checking chronyc sources..."
-chronyc sources
+echo "Please check if time is synced by running 'chronyc sources'"
